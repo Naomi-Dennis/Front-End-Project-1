@@ -54,7 +54,7 @@ header p {
     color: rgba(158, 158, 158, 255);
 }
 
-section.description {
+section.form-description {
     margin-top: 40px;
     font-size: 12px;
 }
@@ -90,6 +90,59 @@ aside section.twitter-widget p span:last-child {
     display: block;
 }
 
+section.contact-form {
+    margin-top: 40px;
+}
+
+section.contact-form form input {
+    display: block;
+    width: 216px;
+    height: 33px;
+}
+
+section.contact-form form textarea {
+    width: 492px;
+    height: 203px;
+    resize: none;
+}
+
+section.contact-form form * {
+    font-family: bebas;
+    font-size: 12px;
+    color: rgba(198, 198, 198, 255);
+    background-color: #fafafa;
+    border-style: none;
+    border: 1px solid rgba(198, 198, 198, 255);
+}
+
+section.contact-form form *:nth-child(n + 2) {
+    margin-top: 20px;
+}
+
+section.contact-form form div.submit-link * {
+    display: block;
+    width: unset;
+    height: unset;
+    background-color: transparent;
+    border-style: unset;
+    border: none;
+    display: inline-block;
+}
+
+section.contact-form form div {
+    display: block;
+    width: unset;
+    height: unset;
+    background-color: transparent;
+    border-style: unset;
+    border: none;
+}
+
+section.contact-form form div input[type='submit'] {
+    color: black;
+    margin-top: 0px;
+}
+
 aside div.stripped-divider {
     width: 194px;
     margin-bottom: 20px;
@@ -101,4 +154,8 @@ main div.stripped-divider {
 
 div.stripped-divider {
     width: inherit;
+}
+
+footer {
+    margin-top: 230px;
 }

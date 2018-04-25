@@ -35,8 +35,7 @@ div#latest-work-banner {
     margin: 0 auto;
 }
 
-div#latest-work-banner div,
-{
+div#latest-work-banner div {
     display: inline-block;
     width: calc(40%);
     height: 25px;

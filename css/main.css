@@ -13,6 +13,7 @@ div.main-container {
 /* Nav Bar */
 
 nav {
+    margin-top: 20px;
     text-align: center;
     display: inline-block;
     margin-left: 70px;
