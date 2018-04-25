@@ -1,0 +1,78 @@
+header h1 {
+    font-family: bebas;
+    font-size: 24px;
+}
+
+header {
+    width: 970px;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 12px;
+    text-align: left;
+    width: 518px;
+    color: rgba(158, 158, 158, 255);
+}
+
+section#details,
+section#team {
+    margin: 0 auto;
+    width: 970px;
+    margin-top: 20px;
+}
+
+section#details article,
+section#team article {
+    display: inline-block;
+    font-size: 12px;
+    width: 320px;
+    height: 302px;
+}
+
+section#details p.intro {
+    color: rgba(158, 158, 158, 255);
+}
+
+section#details article h5 {
+    font-family: bebas;
+    font-size: 16px;
+}
+
+section#team article {
+    position: relative;
+    margin-right: 30px;
+    width: 300px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+section#team article:last-child {
+    margin-right: 0;
+}
+
+section#team span {
+    font-family: bebas;
+    display: inline-block;
+}
+
+section#team span.tel-number {
+    position: absolute;
+    right: 10px;
+    top: 145px;
+}
+
+section#team span.role {
+    display: block;
+    color: rgba(158, 158, 158, 255);
+}
+
+section#team p.bio {
+    margin-top: 15px;
+    font-family: default;
+}
+
+main div.stripped-divider {
+    width: 970px;
+    margin: 0 auto;
+}

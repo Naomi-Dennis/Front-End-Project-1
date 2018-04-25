@@ -1,0 +1,104 @@
+div.main-container {
+    width: 970px;
+}
+
+main {
+    width: 75%;
+    float: left;
+    position: relative;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    position: relative;
+}
+
+aside h5 {
+    font-family: bebas;
+    font-size: 11px;
+}
+
+header:first-child {
+    height: 84px;
+}
+
+aside header {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+aside header:nth-child(n+2) {
+    margin-top: 60px;
+}
+
+aside header h5 {
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+}
+
+header h1 {
+    font-family: bebas;
+    font-size: 24px;
+}
+
+main header {
+    width: 657px;
+}
+
+header p {
+    font-size: 12px;
+    text-align: left;
+    width: 518px;
+    color: rgba(158, 158, 158, 255);
+}
+
+section.description {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+aside section.about-us-description {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+aside section.categories a {
+    display: block;
+    cursor: pointer;
+}
+
+aside section.categories a,
+aside section.categories a:hover,
+aside section.categories a:link,
+aside section.categories a:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+aside section.twitter-widget {
+    font-size: 12px;
+}
+
+span.twitter-handle {
+    color: rgba(70, 70, 70, 0.5);
+}
+
+aside section.twitter-widget p span:last-child {
+    display: block;
+}
+
+aside div.stripped-divider {
+    width: 194px;
+    margin-bottom: 20px;
+}
+
+main div.stripped-divider {
+    width: 728px;
+}
+
+div.stripped-divider {
+    width: inherit;
+}
