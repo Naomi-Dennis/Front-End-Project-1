@@ -1,0 +1,33 @@
+li.root-option {
+    text-indent: 0;
+    color: black;
+    font-size: 14px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    font-family: bebas;
+    height: 20px;
+    align-content: center;
+    margin: 0 0;
+    width: unset;
+    cursor: pointer;
+}
+
+li.root-option:last-child {
+    border: none;
+}
+
+li.root-option:nth-child(n + 2) {
+    padding-left: 10px;
+}
+
+li.root-option.active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-indicators {
+    margin-left: 0;
+    right: unset;
+    left: 0;
+    bottom: unset;
+    margin-top: 30px;
+}

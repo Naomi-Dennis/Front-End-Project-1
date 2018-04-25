@@ -1,0 +1,70 @@
+header h5 {
+    font-family: bebas;
+    margin-top: 20px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.carousel-inner {
+    margin-top: 70px;
+}
+
+.carousel-inner section {
+    margin-top: 20px;
+}
+
+.carousel-inner .info {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.carousel-inner .info span {
+    display: block;
+    font-size: 12px;
+}
+
+.carousel-inner .post {
+    display: inline-block;
+    width: 75%;
+    float: right;
+    font-size: 12px;
+}
+
+.carousel-inner .info-label {
+    font-family: bebas;
+    color: black;
+}
+
+.carousel-inner span {
+    color: #c7c7c7;
+}
+
+.carousel-inner span[class="info-label"]:nth-child(n + 2) {
+    margin-top: 20px;
+}
+
+.carousel-inner section.blog-post-preview div.stripped-divider {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.carousel-indicators {
+    left: 0;
+    bottom: -100px;
+    margin-left: 0px;
+    right: unset;
+}
+
+div#blog-posts ol.carousel-indicators li[data-target="#blog-posts"] {
+    background-color: #000;
+    cursor: pointer;
+}
+
+div#blog-posts ol.carousel-indicators li[data-target="#blog-posts"].active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 120px;
+}
