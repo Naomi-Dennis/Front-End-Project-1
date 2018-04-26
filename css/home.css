@@ -20,6 +20,10 @@ section#latest-work article h3 {
     margin-left: 38px;
 }
 
+.carousel-indicators {
+    cursor: pointer;
+}
+
 .work-link a {
     font-family: bebas;
     font-size: 12px;

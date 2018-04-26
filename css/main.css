@@ -19,6 +19,16 @@ nav {
     margin-left: 70px;
 }
 
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgba(165, 165, 165, 255);
+    text-decoration: none;
+}
+
 nav ul {
     list-style: none;
 }
