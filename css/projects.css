@@ -101,6 +101,7 @@ div#inner-menu ol.carousel-indicators li.active {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     opacity: 0;
+    cursor: pointer;
 }
 
 .large div.view-more {
@@ -112,6 +113,7 @@ div#inner-menu ol.carousel-indicators li.active {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     opacity: 0;
+    cursor: pointer;
 }
 
 div.view-more:hover {

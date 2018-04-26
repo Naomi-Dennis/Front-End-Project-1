@@ -20,7 +20,7 @@ section#latest-work article h3 {
     margin-left: 38px;
 }
 
-.carousel-indicators {
+.carousel-indicators li {
     cursor: pointer;
 }
 
