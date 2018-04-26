@@ -31,3 +31,87 @@ li.root-option.active {
     bottom: unset;
     margin-top: 30px;
 }
+
+.carousel-item {
+    margin-top: 50px;
+}
+
+.pic-col {
+    width: 220px;
+    height: 1000px;
+    float: left;
+}
+
+.pic-col:nth-child(n+2) {
+    margin-left: 20px;
+}
+
+.preview {
+    width: 212px;
+    margin-right: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.preview p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.preview span {
+    display: block;
+    font-family: bebas;
+    color: black;
+    font-size: 11px;
+}
+
+.preview span:nth-last-of-type(1) {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.preview.small img {
+    width: 221px;
+    height: 240px;
+}
+
+.small div.view-more {
+    width: 222px;
+    height: 240px;
+    background-image: url('../images/project_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    opacity: 0;
+}
+
+.large div.view-more {
+    width: 222px;
+    height: 334px;
+    background-image: url('../images/project_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    opacity: 0;
+}
+
+div.view-more:hover {
+    opacity: 1;
+}
+
+div.view-more:hover {}
+
+.preview.large img {
+    width: 221px;
+    height: 334px;
+}
+
+.info {
+    border: 1px solid rgb(224, 224, 224, 0.3);
+    width: 221px;
+}
+
+.info span:first-child {
+    word-spacing: 5px;
+}
